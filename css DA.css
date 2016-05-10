@@ -63,7 +63,7 @@ body {
 
 .shadow {
 	margin-top: 23px;
-	margin-left: 239px;
+	margin-left: 243px;
 	text-align: right;
 }
 
@@ -75,17 +75,17 @@ body {
 }
 
 #rofw {
-	padding-left: 8%;
+	width: 1000px;
+	margin: 0 auto;
 }
 
 #features .col-md-3 {
 	display: inline-block;
-	width: 255px;
-	padding: 0px;
+	padding: 0px 0px 0px 15px;
 }
 
 #features .test {
-	width: 239px;
+	width: 237px;
 	border-radius: 5px;
 	box-shadow: 5px 5px 5px rgba(138,138,138,0.65);
 } 
@@ -285,8 +285,7 @@ hr {
 }
 
 #version {
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin: 0px;
 	padding-right: 140px;
 	text-align: right;
 	color: white;
@@ -420,7 +419,7 @@ input[type=text]{
 .navbar {
 	border: none;
 	margin: 0 auto;
-	width: 1000px;
+	max-width: 1000px;
 	margin-top: 45px;
 	background: none;
 }
