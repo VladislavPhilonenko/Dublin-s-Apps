@@ -1,5 +1,5 @@
     /* md */
- @media (min-width: 992px) and (max-width: 1200px) {
+ @media (min-width: 992px) and (max-width: 1381px) {
 	.logo {
 	  margin-left: 20px;
     }
@@ -198,7 +198,20 @@
     }
 }
 /* xs */
-@media (min-width: 480px) and (max-width: 767px) {
+@media (min-width: 643px) and (max-width: 767px) {
+	.navbar-toggle{
+		margin-right: 40px;
+	}
+	
+	#myNavbar a {
+		margin-bottom: 5px;
+		width: 150px;
+	}
+	
+	.logo {
+		margin-left: 20px;
+	}
+	
 	#myNavbar {
 	  margin-right: 0px;
 	  margin-top: 8px;
@@ -248,10 +261,6 @@
 
     #rofw {
 	  width: auto;
-    }
-	
-	#features .test {
-	  width: 210px;
     } 
 
     #features .col-sm-6 {
@@ -260,14 +269,9 @@
 	  padding: 0px 0px 0px 10px;
 	}
 	
-	#rowb .col-xs-6 {
-	  width: 280px;
-    }
-	
 	#rowb .col-xs-12 {
-	  margin-left: 31%;
-      margin-top: 10px;
-	  width: 280px;
+	  margin-left: 115px;
+	  max-width: auto;
     }
 	
 	#myCarousel2 .carousel-control.right, #myCarousel2 .carousel-control.left {
@@ -314,17 +318,17 @@
 	
 	.a {
 	  width: 330px;
-	  margin-left: 5px;
+	  margin-left: 20px;
 	  text-align: left;
     }
 	
 	.b {
 	  width: 243px;
-	  margin-left: 0px;
+	  margin-left: 20px;
     }
 	
 	.foot h4{
-	  margin: 295px 0px 0px 100px;
+	  margin: 295px 0px 0px 150px;
     }
 	
 	input[type=email]{
@@ -345,345 +349,176 @@
     }
 }
 /* XS Portrait */
-@media (max-width: 479px) {
-	#home-board {
-		margin: 0px;
+@media (min-width: 480px) and (max-width: 642px) {
+	/* Android, iPhone  и так далее.*/
+	.navbar-toggle{
+		margin-right: 40px;
 	}
 	
-	#home-board .col-xs-6 {
-		padding: 0px;
+	#myNavbar a {
+		margin-bottom: 5px;
+		width: 150px;
 	}
 	
-	#home-board h5 {
-	    font-size: 11px;
+	.logo {
+		margin-left: 20px;
 	}
 	
-	#home-board h4 {
-		line-height: 1;
-		margin-top: -10px;
-	    font-size: 12px;
-	}
-	
-	#home-board h1 {
-	    font-size: 24px;
-	}
-	
-	.phone {
-		margin-top: 50px;
-	}
-	
-	#download-btn {
-		padding: 12px 0px;
-		margin-top: -30px;
-		margin-left: 0px;
-		font-size: 8px;
-		width: 100px;
-	}
-	
-	#view-btn {
-		margin-left: 0px;
-		margin-top: -30px;
-		padding: 12px 0px;
-		margin-top: 10px;
-		font-size: 8px;
-		width: 100px;
-	}
-	
-	#features  h1 {
-		font-size: 25px;
-	}
-	
-	#features  h5 {
-		font-size: 11px;
-	}
-	
-	#features h4 {
-		margin-top: 0px;
-		font-size: 15px;
-	}
-	
-	#features h3 {
-		margin-top: 10px;
-		font-size: 20px;
-	}
-	
-	#features  .line {
-		left: 42%;
-	}
-	
-	#features .btn {
-		padding: 8%;
-		margin-top: 40px;
-	}
-	
-	#features .con {
-		font-size: 20px;
-	}
-	
-	#about h1 {
-		font-size: 25px;
-	}
-	
-	#about h5 {
-		font-size: 11px;
-	}
-	
-	#about h4 {
-		margin-top: 0px;
-		font-size: 12px;
-	}
-	
-	#about .con {
-		font-size: 13px;
-	}
-	
-	#about li {
-		font-size: 11px;
-	}
-	
-	ul {
-		padding-left: 0px;
-		margin-top: -13px;
-	}
-	
-	#feature-details h1 {
-		font-size: 25px;
-	}
-	
-	#feature-details h5 {
-		font-size: 11px;
-	}
-	
-	#feature-details h4 {
-		margin-top: 0px;
-		font-size: 12px;
-	}
-	
-	#testimonials h1{
-		font-size: 25px;
-	}
-	
-	#testimonials h5 {
-		font-size: 11px;
-	}
-	
-	#testimonials h4 {
-		margin-top: 0px;
-		font-size: 12px;
-	}
-	
-	.pricing-slide p {
-	  font-size: 14px;
-	  margin-top: 25px;
-	  margin-bottom: 15px;
-	}
-	.item h5 {
-  		font-size: 10px;
-  	}
-	.item h6 {
-  		font-size: 12px;
-  	}
-  	.item img {
-	  margin-right: 10px;
-	  margin-bottom: 21px;
-	}
-	
-	#pricing-bot {
-		padding: 20px;
-	}
-	
-	#pricing-bot h1 {
-		font-size: 27px;
-	}
-	
-	#download-btn1 {
-		padding: 12px 0px;
-		margin-left: 0px;
-		font-size: 8px;
-		width: 100px;
-	}
-	
-	#view-btn1 {
-		margin-left: 0px;
-		margin-top: -30px;
-		padding: 12px 0px;
-		margin-top: 9px;
-		font-size: 8px;
-		width: 100px;
-	}
-	
-	#pricing h1{
-		font-size: 25px;
-	}
-	
-	#pricing  .panel-body h1 {
-		font-size: 40px;
-	}
-	
-	#pricing span {
-		font-size: 20px;
-	}
-	
-	#pricing h5 {
-		font-size: 11px;
-	}
-	
-	#pricing h4 {
-		margin-top: 0px;
-		font-size: 15px;
-	}
-	
-	#pricing .line {
-		left: 43%;
-	}
-	
-	#pricing .btn {
-		margin-top: 20px;
-		padding: 10px 10px;
-		width: 120px;
-		font-size: 12px;
-	}
-	
-	#pricing h3 {
-		font-size: 20px;
-	}
-	
-	#contact .line {
-		left: 43%;
-	}
-	
-	#contact h1 {
-		font-size: 25px;
-	}
-	
-	#contact h5 {
-		font-size: 11px;
-	}
-	
-	.contact {
-	  height: 900px;
-	}
-	
-	.contact p {
-	  font-size: 13px;
-	}
-	
-	.footer .glyphicon {
-		font-size: 12px;
-	}
-	
-	/*.banner h3 {
-	  font-size: 11px;
-	  margin-top: 100px;
-	}
-	.banner h1 {
-	  font-size: 24px;
-	  margin-top: 0;
-	}
-	.banner p {
-	  font-size: 12px;
-	  margin-top: 12px;
-	  line-height: 1;
-	}
-	.download-btn {
-	  width: 80px;
-	  height: 29px;
-	  font-size: 8px;
-	  margin-top: 10px;
+	#myNavbar {
 	  margin-right: 0px;
-	  font-weight: 400;
+	  margin-top: 8px;
+    }
+	
+	.tx {
+	  margin-top: -20px;
+	  padding-right: 37px;
 	}
-	.features-btn{
-		width: 80px;
-	  height: 29px;
-	  font-size: 8px;
-	  margin-top: 10px;
+	
+	.item .col-md-7 {
+	  margin-left: -30px;
+    }
+	
+	#readmore-btn {
+	  margin-top: 16px;
+	  font-size: 20px;
+	  width: 140px;
+	  height: 35px;
+    }
+	
+    .shadow {
+	  width: 150px;
+	  margin-top: 0px;
+	  margin-left: 0px;
+    }
+	
+	.tx h1 {
+	  font-size: 29px;
+    }
+
+    .tx h3 {
+	  font-size: 29px;
+    }
+
+    .tx p {
+	  font-size: 17px;
+    }
+	
+    #myCarousel1 .carousel-control.right, #myCarousel1 .carousel-control.left {
+	  margin-top: 60px;
+	  margin-left: 0px;
 	  margin-right: 0px;
-	  font-weight: 400;
-	  margin-bottom: 25px;
-	}
-	h4 {
-	  font-size: 10px;
-	  margin-top: 30px;
-	  font-weight: 600;
-	}
-	h2 {
-	  font-size: 25px;
-	  margin-bottom: 15px;
-	}
-	.features img {
-	  margin-bottom: 35px;
-	}
-	.features i.fa {
-	  font-size: 20px;
-	  width: 80px;
-	  height: 80px;
-	}
-	.features h3 {
-  		font-size: 18px;
-  	}
-  	.features p {
-	  font-size: 14px;
-	  margin-bottom: 30px;
-	}
-	.details p {
-	  font-size: 14px;
-	  margin: 8px 0;
-	}
-	.details ul li {
-  		font-size: 9px;
-  	}
-  	.details ul li i.fa {
-		  font-size: 16px;
-		  height: 20px;
-		  width: 20px;
-	}
-	.feature-detail h4 {
-  		margin-top: 40px;
-  	}
-  	.feature-detail p {
-	  font-size: 12px;
+    }
+
+    #rofw {
+	  width: auto;
+    } 
+
+    #features .col-sm-6 {
 	  margin-top: 10px;
+	  max-width: 260px;
+	  padding: 0px 0px 0px 10px;
 	}
-	.pricing-slide p {
-	  font-size: 14px;
-	  margin-top: 25px;
-	  margin-bottom: 15px;
+	
+	#rowb .col-xs-12 {
+	  margin-left: 0px;
+	  max-width: auto;
+    }
+	
+	#myCarousel2 .carousel-control.right, #myCarousel2 .carousel-control.left {
+	  margin: 13px 5px 0px 5px;
+    }
+	
+	#myCarousel2 h4 {
+    font-size: 13px;
+    margin: 0 auto;
+    max-width: 400px;
+    line-height: 1.7;
+}
+	
+	.tab4 {
+	  margin: 20px auto;
+    }
+	
+	#fist-ul {
+	  padding-left: 20px;
+    }
+	
+	#fist-ul .fa {
+	  padding: 0px 3px 0px 4px;
+	  margin-right: 5px;
+    }
+	
+	#ReadMore-btn {
+	  margin-left: 20px;
 	}
-	.item h5 {
-  		font-size: 10px;
-  	}
-	.item h6 {
-  		font-size: 12px;
-  	}
-  	.item img {
-	  margin-right: 10px;
-	  margin-bottom: 21px;
+	
+	#second-ul {
+	  padding-right: 10px;
 	}
-	.download p {
-	  font-size: 20px;
-	  padding: 25px 0;
+
+    hr {
+	  margin: 10px 10px 10px 0px;
 	}
-	.download button {
-	  margin-bottom: 35px;
-	  margin-top: 0;
+	
+	#copyright .twitter{
+	margin-left: 5px;
+	margin-right: 20px;
+    }
+	
+	#text h3{
+	max-width: 400px;
 	}
-	.price-plan img {
-	  margin-bottom: 25px;
+	
+	#version {
+	padding-right: 50px;
 	}
-	.contact-heading img {
-	  margin-bottom: 5px;
+	
+	.a {
+	  width: 330px;
+	  margin-left: 20px;
+	  text-align: left;
+    }
+	
+	.b {
+	  width: 243px;
+	  margin-left: 20px;
+    }
+	
+	.foot h4{
+	  text-align: justify;
+	  margin: 570px 0px 0px 25%;
+    }
+	
+	input[type=email]{
+	  width: 230px;
 	}
-	.contact p {
-  		font-size: 10px;
-  	}
-  	.contact-form{
-  		margin-top: 10px;
-  	}
-  	.footer i.fa{
-  		padding: 15px;
-  	}
-  	.footer p{
-  		font-size: 12px;
-  	}*/
+	
+	#Submit {
+	  margin-left: 0px;
+	  width: 80px;
+    }
+	
+	#Subscribe {
+	  float: left;
+	  width: 80px;
+    }
+	
+	#icons {
+	  padding: 30px 0px 0px 0px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+	/*Планшеты в режиме portrait.*/
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+	/*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
+ 
+}
+ 
+@media only screen and (min-width: 1382px) {
+	/*Десктоп с большими разрешениями, телевизоры.*/
+ 
 }
