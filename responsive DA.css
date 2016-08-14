@@ -507,18 +507,3 @@
 	  padding: 30px 0px 0px 0px;
     }
 }
-
-@media only screen and (min-width: 768px) {
-	/*Планшеты в режиме portrait.*/
- 
-}
- 
-@media only screen and (min-width: 992px) {
-	/*Планшеты в режиме landscape, нетбуки, ноутбуки, десктоп.*/
- 
-}
- 
-@media only screen and (min-width: 1382px) {
-	/*Десктоп с большими разрешениями, телевизоры.*/
- 
-}
