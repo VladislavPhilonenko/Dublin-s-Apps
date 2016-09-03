@@ -32,7 +32,9 @@ body {
 }
 .readmore-btn {
 	margin-top: 24px;
-	background-color: blue;
+	background-image: url(img/Button.png);
+	background-repeat: no-repeat; 
+	background-size: cover;
 	border: none;
 	color: #e7e8ea;
 	font-family: 'Colaborate-Medium', arial;
