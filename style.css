@@ -2,7 +2,7 @@ section {
 	padding-top: 5%;
 }
 body {
-	background-image: url(img/Home_pageBg.png);
+	background-image: url(image/Home_pageBg.png);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	font-family: 'Colaborate-Light', arial;
@@ -32,7 +32,7 @@ body {
 }
 .readmore-btn {
 	margin-top: 24px;
-	background-image: url(img/Button.png);
+	background-image: url(image/Button.png);
 	background-repeat: no-repeat; 
 	background-size: cover;
 	border: none;
@@ -156,7 +156,7 @@ body {
 	margin-right: 20px;
 }
 #download-btn, #smalReadMore-btn {
-	background-image: url(img/ReadMe2.png);
+	background-image: url(image/ReadMe2.png);
 	border: none;
 	color: #e7e8ea;
 	font-family: 'Colaborate-Medium', arial;
@@ -189,7 +189,7 @@ hr {
 /*FOOTER*/
 footer {
 	margin-top: 25px;
-	background-image: url(img/footer.png);
+	background-image: url(image/footer.png);
 	background-repeat: no-repeat; 
 	background-size: cover;
 }
